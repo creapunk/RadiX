@@ -38,7 +38,7 @@ The RadiX Drive is a high-performance, quad/six-channel PWM driver capable of de
 
 #### RadiX Drive x16
 
-- **`R1.0`** [in design]: compact dual BLDC driver [[wiki]](./wiki/RadiX-Drive/R1.0/specification.md)
+- **`R1.0`** [in design]: compact dual BLDC driver
 
 	> - **Key info:** 6 channels 3-75V 10A<sub>RMS</sub>/Channel 1500W<sub>MAX</sub>, PCIe x16, 100x49x10mm
 	> - **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ

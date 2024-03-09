@@ -3,10 +3,10 @@
 ## ⚡ Electrical characteristics
 
 * Input Powering requirements:
-	- V~SYSTEM~ system supply: 5V~DC~ ± 0.2V~DC~
-	- V~MOTOR~ motor supply: 2-75V~DC~ with absolute maximum 90V~DC~ 
-* **Maximum current requirements:** 6A~RMS~
-* Onboard voltage sources (taken from V~SYSTEM~):
+	- V<sub>SYSTEM</sub> system supply: 5V<sub>DC</sub> ± 0.2V<sub>DC</sub>
+	- V<sub>MOTOR</sub> motor supply: 2-75V<sub>DC</sub> with absolute maximum 90V<sub>DC</sub>
+* **Maximum current requirements:** 6A<sub>RMS</sub> 
+* Onboard voltage sources (taken from V<sub>SYSTEM</sub> ):
 	- 3.3V Buck DC-DC for system supply
 	- 12V Boost DC-DC for mosfets supply
 	- 3.3V LDO for analog domain
@@ -16,16 +16,16 @@
 ## 🔄 Motor Driving Control Capabilities
 
 - **Supported load types:** 
-	- Brushed DC motor: 2x 8A~RMS~ or 1x 16A~RMS~
-	- Stepper motor: 1x Unipolar or Bipolar 8A~RMS~
-	- BLDC or PMSM: 1x 8A~RMS~ 
-	- Solenoid: 4x 8A~RMS~ or 2x 16A~RMS~ or 1x 32A~RMS~
-	- Transformers: 2x 8A~RMS~ or 1x 16A~RMS~
-- **Maximum output current I~RMS~:** **8A~RMS~** per channel with **12A~PEAK~**
-- **Maximum output power P~MAX~:** 450W~RMS~@75V with 600W~PEAK~@75V 
-- Maximum rated power P~RATED~: **P~RATED~ ≤ 6 x V~MOTOR~** and **P~RATED~ ≤ 4 x I~RMS~**
+	- Brushed DC motor: 2x 8A<sub>RMS</sub> or 1x 16A<sub>RMS</sub>
+	- Stepper motor: 1x Unipolar or Bipolar 8A<sub>RMS</sub>
+	- BLDC or PMSM: 1x 8A<sub>RMS</sub>
+	- Solenoid: 4x 8A<sub>RMS</sub> or 2x 16A<sub>RMS</sub> or 1x 32A<sub>RMS</sub>
+	- Transformers: 2x 8A<sub>RMS</sub> or 1x 16A<sub>RMS</sub>
+- **Maximum output current I<sub>RMS</sub>:** **8A<sub>RMS</sub>** per channel with **12A<sub>PEAK</sub>**
+- **Maximum output power P<sub>MAX</sub>:** 450W<sub>RMS</sub>@75V with 600W<sub>PEAK</sub>@75V 
+- Maximum rated power P<sub>RATED</sub>: **P<sub>RATED</sub> ≤ 6 x V<sub>MOTOR</sub>** and **P<sub>RATED</sub> ≤ 4 x I<sub>RMS</sub>**
 - **Energy saving features:** Passive Braking, Freewheeling and automatic power down
-- **Working PWM frequency F~PWM~:** up to **83kHz** (11bit resolution) with up to 99.5% duty cycle
+- **Working PWM frequency F<sub>PWM</sub>:** up to **83kHz** (11bit resolution) with up to 99.5% duty cycle
 - **Maximum phase channel resistance:** 30mΩ
 - **Supported position sensors:**
 	- 2x ABZ encoder
