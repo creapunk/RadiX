@@ -10,7 +10,7 @@ The RadiX Drive is a high-performance, quad/six-channel PWM driver capable of de
 
 - 🧩 **Modular Concept:** Offers single board for various configurations for different cost, size and performance needs
 - 🕹️ **Closed-Loop Control:** enables an encoder support for real-time position monitoring, ensuring precise and safe motion.
-- ⚡ **Powerfull and effective control capabilites:** Capable of up to 8/10A~RMS~ per channel with operational voltage 3-75V and a maximum of 30mΩ total phase resistance
+- ⚡ **Powerfull and effective control capabilites:** Capable of up to 8/10A<sub>RMS</sub> per channel with operational voltage 3-75V and a maximum of 30mΩ total phase resistance
 - 💵 **Economical:** Keeps the cost remarkably low without compromising on quality or functionality.
 
 ## Applications
@@ -32,7 +32,7 @@ The RadiX Drive is a high-performance, quad/six-channel PWM driver capable of de
 
 - **`R1.0`** [in design]: compact STEPPER and BLDC driver [[wiki]](./wiki/RadiX-Drive/R1.0/specification.md)
 
-  > - **Key info:** 4 channels 3-75V 8A~RMS~/Channel 450W~MAX~, PCIe x8, 64x49x10mm
+  > - **Key info:** 4 channels 3-75V 8A<sub>RMS</sub>/Channel 450W<sub>MAX</sub>, PCIe x8, 64x49x10mm
   > - **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
 
 
@@ -40,7 +40,7 @@ The RadiX Drive is a high-performance, quad/six-channel PWM driver capable of de
 
 - **`R1.0`** [in design]: compact dual BLDC driver [[wiki]](./wiki/RadiX-Drive/R1.0/specification.md)
 
-	> - **Key info:** 6 channels 3-75V 10A~RMS~/Channel 1500W~MAX~, PCIe x16, 100x49x10mm
+	> - **Key info:** 6 channels 3-75V 10A<sub>RMS</sub>/Channel 1500W<sub>MAX</sub>, PCIe x16, 100x49x10mm
 	> - **Supported interfaces:** STEP-DIR-EN, USB, CAN-FD, USART, I2C, SPI, ABZ
 
 ## Hardware Development Roadmap
